@@ -120,3 +120,7 @@ func Start() {
 
 	<-make(chan int)
 }
+
+func Stop() {
+	stopChannel <- true
+}
