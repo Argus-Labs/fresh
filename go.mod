@@ -1,9 +1,8 @@
-module github.com/Argus-Labs/fresh
+module github.com/argus-labs/fresh
 
-go 1.22.0
+go 1.16
 
 require (
-	github.com/argus-labs/fresh v0.0.0-20190826141211-0fa698148017
 	github.com/howeyc/fsnotify v0.9.0
 	github.com/mattn/go-colorable v0.1.13
 	github.com/pilu/config v0.0.0-20131214182432-3eb99e6c0b9a
