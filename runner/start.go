@@ -86,11 +86,11 @@ func init() {
 }
 
 func initLogFuncs() {
-	mainLog = newLogFunc("main")
-	watcherLog = newLogFunc("watcher")
-	runnerLog = newLogFunc("runner")
-	buildLog = newLogFunc("build")
-	appLog = newLogFunc("app")
+	mainLog = newLogFunc()
+	watcherLog = newLogFunc()
+	runnerLog = newLogFunc()
+	buildLog = newLogFunc()
+	appLog = newLogFuncPlain()
 }
 
 func setEnvVars() {

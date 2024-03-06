@@ -45,6 +45,7 @@ var colors = map[string]string{
 	"magenta":        "35",
 	"cyan":           "36",
 	"white":          "37",
+	"grey":           "90",
 	"bold_black":     "30;1",
 	"bold_red":       "31;1",
 	"bold_green":     "32;1",
